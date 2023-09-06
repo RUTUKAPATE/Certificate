@@ -9,12 +9,12 @@ ftd.image-src company-logo:
 ftd.type-data types: $arya-typography.types
 
 -- ftd.container:
-width: hug-content
+width: fill-container
 height: hug-content
-margin.px: 10
 
 -- ftd.row:
 background.linear-gradient: $lg
+width: hug-content
 
 -- ftd.column:
 color: white

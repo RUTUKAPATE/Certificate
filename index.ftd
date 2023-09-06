@@ -7,7 +7,6 @@
 -- ftd.column:
 width: fill-container
 height: hug-content
-align-content: center
 
 -- draw.certificate: RUTUJA KAPATE
 logo: $assets.files.assets.logo-fifthtry-dark.svg
@@ -15,6 +14,5 @@ company-logo: $assets.files.assets.fastn-logo.png
 date: Date of Issue: 25 September 2023
 
 fastn Web Dev Expert Certification
-
 
 -- end: ftd.column
