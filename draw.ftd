@@ -1,0 +1,86 @@
+-- import: fastn-community.github.io/arya-typography
+
+-- component certificate:
+caption title:
+body body:
+string date:
+ftd.image-src logo:
+ftd.image-src company-logo:
+ftd.type-data types: $arya-typography.types
+
+-- ftd.container:
+width: hug-content
+height: hug-content
+margin.px: 10
+
+-- ftd.row:
+background.linear-gradient: $lg
+
+-- ftd.column:
+color: white
+
+-- ftd.image: $certificate.logo
+padding.px: 10
+width.fixed.px: 200
+height.fixed.px: 100
+
+-- ftd.text: $certificate.date
+margin-top.px: 400
+padding.px: 10
+display: inline
+
+-- end: ftd.column
+
+-- ftd.column:
+padding.px: 50
+background.solid: black
+color: white
+
+-- ftd.text: THIS IS TO CERTIFY THAT
+role: $inherited.types.heading-medium
+
+-- ftd.text: $certificate.title
+role: $inherited.types.heading-large
+
+-- ftd.text: HAS SUCCESSFULLY COMPLETED
+role: $inherited.types.heading-medium
+padding-top.px: 100
+
+-- ftd.text: $certificate.body
+role: $inherited.types.heading-large
+
+-- ftd.row:
+spacing.fixed.px: 0
+padding-top.px: 50
+
+-- ftd.text: IN COLLABORATION WITH
+role: $inherited.types.heading-small
+padding-top.px: 30
+align-self: center
+
+-- ftd.image: $certificate.company-logo
+width.fixed.px: 200
+height.fixed.px: 125
+align-self: center
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.container
+
+-- end: certificate
+
+-- ftd.linear-gradient lg:
+direction: top-left
+colors: $color-values-2
+
+-- ftd.linear-gradient-color list color-values-2:
+
+-- ftd.linear-gradient-color: #EF8435
+
+-- ftd.linear-gradient-color: #EBBE52
+
+-- end: color-values-2
