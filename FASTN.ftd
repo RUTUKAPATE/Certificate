@@ -1,18 +1,5 @@
 -- import: fastn
 
--- fastn.package: rutukapate.github.io/certificate
-favicon: /-/rutukapate.github.io/certificate/favicon.ico
+-- fastn.package: Certificate
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
-
--- fastn.auto-import: rutukapate.github.io/certificate/FASTN/ds
--- fastn.auto-import: rutukapate.github.io/certificate/assets
--- fastn.auto-import: doc-site
-
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- fastn.dependency: fastn-community.github.io/arya-typography
